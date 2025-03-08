@@ -1,4 +1,9 @@
 import yfinance as yf
+import sys
+import os
+
+# Get the absolute path of the directory where 'talib' is located
+sys.path.append(os.path.abspath("."))
 import talib
 import csv
 import numpy as np
